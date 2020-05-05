@@ -1,0 +1,43 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% auto;
+    opacity: 90%;
+    border-radius: 10px;
+}
+.col{
+    padding: .4em 1.3em;
+
+}
+.color-dark{
+    background: #2c2c2c;
+}
+.color-light{
+    background: #6b6c6d;
+}
+
+input.txt{
+    border: 0;
+    padding: 1em;
+    width: 80%;
+    margin-bottom: 2em;
+    border-radius: 20px;
+}
+input.btn {
+    border: 0;
+    display: block;
+    padding: 1em 3em;
+    background: #71ff39;
+    color: #003a61;
+    margin-bottom: 1em;
+    border-radius: 20px;
+}
+input.btn:hover{
+    background: #23aa07;
+}
+.life-container{
+    background: #2c2c2c;
+    padding: .5em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
